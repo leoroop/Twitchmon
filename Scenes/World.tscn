@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scenes/Bush/Bush.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Player/Player.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Scenes/TreeBorders/Horizontal.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Scenes/Houses/House_1.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/Houses/BigHouse.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Scenes/Houses/VeryBigHouse.tscn" type="PackedScene" id=9]
 
 [sub_resource type="TileSet" id=1]
 0/name = "DirtTileset.png 0"
@@ -481,3 +482,15 @@ position = Vector2( 221.097, -57.1931 )
 
 [node name="Bush3" parent="YSort" instance=ExtResource( 1 )]
 position = Vector2( 189.984, -99.6196 )
+
+[node name="Bush9" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( 358.134, -324.185 )
+
+[node name="Bush10" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( 266.917, -310.75 )
+
+[node name="Bush11" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( 317.829, -266.202 )
+
+[node name="VeryBigHouse" parent="." instance=ExtResource( 9 )]
+position = Vector2( 458.229, -340.448 )

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Houses/Casa2.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 95.5, 64.5 )
+
+[node name="VeryBigHouse" type="StaticBody2D"]
+
+[node name="Casa2" type="Sprite" parent="."]
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 18 )
+scale = Vector2( 0.6, 0.6 )
+shape = SubResource( 1 )
