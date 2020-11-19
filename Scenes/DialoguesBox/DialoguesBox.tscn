@@ -1,0 +1,16 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -140.0
+rect_pivot_offset = Vector2( -15.0971, -39.1184 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 0.235962
+margin_right = 320.236
+margin_bottom = 40.0
+color = Color( 0.494118, 0.341176, 0.196078, 1 )
